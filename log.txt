@@ -1,3 +1,21 @@
+commit 40fe16c224ef3088b1b451ccfe06be56655fc9cf
+Author: Aman Khoja <aak171730@utdallas.edu>
+Date:   Mon Oct 29 11:32:24 2018 -0500
+
+    Script 1 added
+
+commit 9edba2801f0611f5487aa3cc3c7a8d95dc7f0003
+Author: Aman Khoja <aak171730@utdallas.edu>
+Date:   Mon Oct 29 10:38:42 2018 -0500
+
+    updated readme
+
+commit 7ef51ed470cc8a0b85118d8b2268c71c38441df3
+Author: Aman Khoja <aak171730@utdallas.edu>
+Date:   Mon Oct 29 09:02:04 2018 -0500
+
+    first commit
+
 commit 69dcc17c661ad57cd2241f3251db130ff615d85b
 Author: Aman Khoja <aak171730@utdallas.edu>
 Date:   Mon Oct 29 08:52:45 2018 -0500
