@@ -1,3 +1,9 @@
+commit eb94df44e931a5e61c42589a93c7d74fad92e2e8
+Author: Aman Khoja <aak171730@utdallas.edu>
+Date:   Mon Oct 29 11:34:22 2018 -0500
+
+    Script 1 and Log updated
+
 commit 40fe16c224ef3088b1b451ccfe06be56655fc9cf
 Author: Aman Khoja <aak171730@utdallas.edu>
 Date:   Mon Oct 29 11:32:24 2018 -0500
