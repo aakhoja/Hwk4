@@ -1,3 +1,15 @@
+commit 9e8ab900ac59201037893e1b7b17e6660ec9c311
+Author: Aman Khoja <aak171730@utdallas.edu>
+Date:   Thu Nov 1 17:43:22 2018 -0500
+
+    Script1 Done
+
+commit 30fa1aaa5e5be9f4a14bbddcad945465c88afa3b
+Author: Aman Khoja <aak171730@utdallas.edu>
+Date:   Thu Nov 1 15:39:16 2018 -0500
+
+    Script1 updated
+
 commit 7b79553e604176705499d20fdc961d3f7c15676c
 Author: Aman Khoja <aak171730@utdallas.edu>
 Date:   Thu Nov 1 12:27:11 2018 -0500
