@@ -9,17 +9,23 @@
 echo "Enter directory name"
 read dirname
 
-if [ ! -d "$dirname" ]
-    then
+    if [ ! -d "$dirname" ]
+        then
         echo "Directory doesn't exist. Creating now"
         mkdir ./$dirname;
         echo "Directroy '$dirname' created"
-    if[[! -e /$dirname/file10.txt]]
-        touch /$dirname/file10.txt
-        echo "File created"
-
-    else
-        echo "File exists"
+        if[[! -e ./file10.txt]]
+        then
+            touch /$dirname/file10.txt
+            echo "File created"
+        echo"File exists"
+        fi
+echo "File exists"
 fi
+
+
+
+g++ main.cpp -o main
+exit 0
 
 

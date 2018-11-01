@@ -1,3 +1,9 @@
+commit c5bbe147447bd8dfb47c8d554cc9b27b6d13a08a
+Author: Aman Khoja <aak171730@utdallas.edu>
+Date:   Mon Oct 29 12:03:05 2018 -0500
+
+    Script 1.1 and Log updated2
+
 commit 9be7e9ee50518007ea610f32d934fbc6478b3d2e
 Author: Aman Khoja <aak171730@utdallas.edu>
 Date:   Mon Oct 29 12:02:20 2018 -0500

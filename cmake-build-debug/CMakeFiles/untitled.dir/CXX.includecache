@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/amankhoja/Desktop/Work/School/Fall 2018/Hwk4/untitled/main.cpp
+iostream
+-
+stdlib.h
+-
+
