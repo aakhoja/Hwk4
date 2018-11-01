@@ -1,11 +1,5 @@
 #!/bin/bash
 
-#for entry in "$search_dir"/*
-#do
-#echo "$entry"
-#done
-
-
 echo "Enter directory name"
 read dirname
 
@@ -28,7 +22,7 @@ read dirname2
         then
         echo "Directory doesn't exist. Creating now"
         mkdir ./$dirname2;
-        echo "Directory '$dirname' created"
+        echo "Directory '$dirname2' created"
         cd $dirname2
 
         touch file20.txt
@@ -38,6 +32,21 @@ read dirname2
     fi
 
 fi
+
+
+
+        ln -s "$dirname2/file20.txt" "link1.txt"
+
+if [ ! -f "~/desktop/work/school/Fall 2018/Hwk4/Hwk4/file.txt ]" ]
+    then
+        touch file1.txt
+        echo "File created"
+
+fi
+
+path = '$PWD';
+
+ls -d "$path"/* | sort | cut -f 6 -d: | uniq
 
 
 
