@@ -15,10 +15,10 @@ if [ ! -d "$dirname" ]
 
         cd ..
 
-echo "Enter 2nd directory name"
-read dirname2
+        echo "Enter 2nd directory name"
+        read dirname2
 
-    if [ ! -d "$dirname2" ]
+if [ ! -d "$dirname2" ]
         then
         echo "Directory doesn't exist. Creating now"
         mkdir ./$dirname2;
@@ -44,9 +44,7 @@ if [ ! -f "~/desktop/work/school/Fall 2018/Hwk4/Hwk4/file.txt ]" ]
 
 fi
 
-path = '$PWD';
-
-ls -d "$path"/* | sort | cut -f 6 -d: | uniq
+        ls -d "$PWD"/* | sort | cut -f 6 -d: | uniq
 
 
 
