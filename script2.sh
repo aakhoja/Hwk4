@@ -1,12 +1,21 @@
 #!/bin/bash
 
-cd '~/Desktop/Work/School/Fall 2018/Hwk4/Hwk4/';
+parent_path=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )
 
-# ls -d "$PWD"/* | sort | cut -f 6 -d: | uniq
+cd "$parent_path/script4.1"
 
-#ls -d */
-
+echo "The following files were added during Script4.1"
 find * -maxdepth 0 -type d
 find * -maxdepth 2 -type f
 
-#find . -print | sed 's;[^/]*/;|___;g;s;___|; |;g' ;
+echo "Do you want to delete all the files in Script4.1? [Y,n]"
+read input
+if [[ $input == "Y" || $input == "y" ]];
+    then
+        echo "calling script 3 now"
+        ( exec "$parent_path/script3.sh" )
+
+    echo "Nothing yes been deleted"
+fi
+
+

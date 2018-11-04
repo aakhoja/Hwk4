@@ -1,5 +1,9 @@
 #!/bin/bash
 
+echo "Enter a name for Script4.1 Directory"
+mkdir 'script4.1';
+cd 'script4.1';
+
 echo "Enter directory name"
 read dirname
 
@@ -44,7 +48,7 @@ if [ ! -f "~/desktop/work/school/Fall 2018/Hwk4/Hwk4/file.txt ]" ]
 
 fi
 
-        ls -d "$PWD"/* | sort | cut -f 6 -d: | uniq
+#   ls -d "$PWD"/* | sort | cut -f 6 -d: | uniq
 
 
 
