@@ -1,3 +1,15 @@
+commit fef30353c1afe76f394c43a3579a0eb5c5c3a3b4
+Author: Aman Khoja <aak171730@utdallas.edu>
+Date:   Sun Nov 4 22:46:27 2018 -0600
+
+    myprog2 add
+
+commit b90e7f33ff191a15ff78993516f5a0712a2fd195
+Author: Aman Khoja <aak171730@utdallas.edu>
+Date:   Sun Nov 4 22:30:55 2018 -0600
+
+    Log Updated
+
 commit f8c122ae8c3097db1c598c790657aaf2f0cbc091
 Author: Aman Khoja <aak171730@utdallas.edu>
 Date:   Sun Nov 4 22:28:47 2018 -0600
