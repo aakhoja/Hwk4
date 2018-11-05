@@ -1,8 +1,14 @@
 #!/bin/bash
 
-echo "Enter a name for Script4.1 Directory"
+parent_path=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )
+
+#cd "$parent_path/script4.1"
+
+echo "All the files created will be under the Directory - Script 4.1"
 mkdir 'script4.1';
 cd 'script4.1';
+
+#### get directory one
 
 echo "Enter directory name"
 read dirname
@@ -19,8 +25,12 @@ if [ ! -d "$dirname" ]
 
         cd ..
 
-        echo "Enter 2nd directory name"
-        read dirname2
+
+
+#### get directory two
+
+echo "Enter 2nd directory name"
+read dirname2
 
 if [ ! -d "$dirname2" ]
         then
@@ -38,10 +48,12 @@ if [ ! -d "$dirname2" ]
 fi
 
 
+echo "Creating soft link for file20.txt in $dirname2 directory"
+ln -s "$dirname2/file20.txt" "link1.txt"
+echo "Soft link created link1.txt"
 
-        ln -s "$dirname2/file20.txt" "link1.txt"
 
-if [ ! -f "~/desktop/work/school/Fall 2018/Hwk4/Hwk4/file.txt ]" ]
+if [ ! -f "$parent_path/script4.1/file1.txt" ]
     then
         touch file1.txt
         echo "File created"

@@ -12,10 +12,10 @@ echo "Do you want to delete all the files in Script4.1? [Y,n]"
 read input
 if [[ $input == "Y" || $input == "y" ]];
     then
-        echo "calling script 3 now"
+        echo "Calling Script 3 now"
         ( exec "$parent_path/script3.sh" )
-
-    echo "Nothing yes been deleted"
+    else
+        echo "Nothing yes been deleted"
 fi
 
 
